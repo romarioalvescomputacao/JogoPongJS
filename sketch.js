@@ -40,6 +40,7 @@ function preload(){
 function setup() {
   createCanvas(600, 400);
   trilha.loop();
+  print("Com as configurações atuais você move a raquete da esquerda com as setas CIMA e BAIXO, caso queira dois jogadores comente na FUNCTION DRAW com duas barras a função movimentaRaqueteOponenteAutomatico e tire as barras da função movimentaRaqueteOponenteManual,  vc vai mover a raquete da direita com as setas CIMA e BAIXO e da esquerda com as teclas W e S. ")
 }
 
 function draw() {
